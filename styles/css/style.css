@@ -1,0 +1,82 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  z-index: 2;
+  font-size: 56px;
+  line-height: 1;
+  letter-spacing: 0.26em;
+  font-weight: 300;
+  font-style: italic;
+  font-family: "freight-big-pro";
+  margin-top: auto;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 2;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 0.26em;
+  font-weight: 300;
+  /* font-style: italic; */
+  font-family: "Palatino Linotype";
+  margin-top: auto;
+  width: 60vw;
+}
+
+#top {
+  vertical-align: middle;
+  height: 100vh;
+  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url(../../images/bridge.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  /* margin-bottom: 60px; */
+}
+.About {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.About img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.interest {
+  align-items: center;
+  margin-left: 10vw;
+  margin-right: auto;
+  width: 70vw;
+  display: flex;
+}
+.interest img {
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  float: left;
+  margin-right: 50px;
+}
+.interest p {
+  font-size: 24px;
+}
+.Interests {
+  margin-top : 100px;
+}
