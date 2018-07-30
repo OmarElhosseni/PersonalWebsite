@@ -81,5 +81,39 @@ h2 {
   font-size: 24px;
 }
 .Interests {
-  margin-top : 100px;
+  margin-top : 0;
 }
+
+@media screen and (max-width: 670px) {
+    #top h1{
+      font-size: 29px;
+    }
+    .About h2{
+      font-size: 20px;
+      width: 100%;
+    }
+    .About {
+      height: 100%;
+    }
+    .interest img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .interest p{
+      text-align: center;
+    }
+    .interest {
+      display: flex;
+      flex-direction: column;
+    }
+}
+/* .Interests:hover {
+  -webkit-opacity: 0.25;
+  -moz-opacity: 0.25;
+  opacity: 0.25;
+-webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  -ms-transition: all 3s ease;
+  -o-transition: all 3s ease;
+  transition: all 3s ease;
+} */
