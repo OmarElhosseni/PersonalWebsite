@@ -64,14 +64,15 @@ h2 {
 }
 
 .interest {
+  /* vertical-align: middle; */
   align-items: center;
   margin-left: 10vw;
   margin-right: auto;
   width: 70vw;
-  display: flex;
+  display: inline-block;
 }
 .interest img {
-  display: inline-block;
+  /* vertical-align: middle; */
   width: 110px;
   height: 110px;
   float: left;
@@ -79,6 +80,7 @@ h2 {
 }
 .interest p {
   font-size: 24px;
+  vertical-align: top;
 }
 .Interests {
   margin-top : 0;
@@ -117,3 +119,24 @@ h2 {
   -o-transition: all 3s ease;
   transition: all 3s ease;
 } */
+
+.contact {
+  background-color: grey;
+  text-align: left;
+  padding: 20px;
+  color: white;
+}
+
+.contact img {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  vertical-align: bottom;
+}
+
+.contact p {
+  display: block;
+  float: left;
+  font-size: 20px;
+  vertical-align: middle;
+}
