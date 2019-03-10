@@ -56,7 +56,7 @@ h2 {
   }
   .About {
     padding-top: 60px;
-    padding-bottom: 60px;
+ 
   }
   .About img {
     display: block;
@@ -84,6 +84,7 @@ h2 {
   }
   .Interests {
     margin-top : 0;
+    margin-bottom: 70px;
   }
 
   @media screen and (max-width: 670px) {
